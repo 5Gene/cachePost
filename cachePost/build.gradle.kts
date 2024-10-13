@@ -1,3 +1,4 @@
+import wing.GroupIdMavenCentral
 import wing.publishJavaMavenCentral
 
 plugins {
@@ -11,8 +12,8 @@ buildscript {
 }
 
 
-group = "io.github.5gene"
-version = "1.0"
+group = GroupIdMavenCentral
+version = libs.versions.gene.cache.post.get()
 
 publishJavaMavenCentral("okhttp cache post request")
 

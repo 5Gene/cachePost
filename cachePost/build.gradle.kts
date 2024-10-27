@@ -1,5 +1,5 @@
-import wing.GroupIdMavenCentral
-import wing.publishJavaMavenCentral
+import june.wing.GroupIdMavenCentral
+import june.wing.publishJavaMavenCentral
 
 plugins {
     alias(vcl.plugins.kotlin.jvm)
